@@ -11,9 +11,9 @@ public class Const {
     public static String BBS_ID_SEPARATOR = "###";
     public static String TIMESTAMP = System.currentTimeMillis() + "";
     // 本地开发环境上 data source 的配置
-    public static String DEV_JDBC_URL = "jdbc:mysql://47.94.167.6:3306/db_bbs";
+    public static String DEV_JDBC_URL = "jdbc:mysql://localhost:3306/db_bbs";
     public static String DEV_USER = "root";
-    public static String DEV_PASSWORD = "1qaz@WSX3edc";
+    public static String DEV_PASSWORD = "root";
     // 运行环境上 data source 的配置
     public static String JDBC_URL = "jdbc:mysql://47.94.167.6:3306/db_bbs";
     public static String USER = "root";
